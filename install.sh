@@ -21,6 +21,9 @@ sudo nala install -y lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
 
 
+# Create folders in user directory (eg. Documents,Downloads,etc.)
+xdg-user-dirs-update
+
 # Sound packages (pulseaudio installed prior)
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
 
