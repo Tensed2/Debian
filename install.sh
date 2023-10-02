@@ -9,7 +9,8 @@ sudo apt update && sudo apt install nala -y
 sudo nala upgrade -y
 
 # xorg display server installation
-sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput
+sudo nala install -y xorg xbacklight
+#sudo nala install -y xbindkeys xvkbd xinput
 
 ##GUI (Xfce)
 #XFCE packages
