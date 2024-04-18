@@ -63,7 +63,7 @@ sudo nala install git exa bat bash-completion speedtest-cli gufw htop neofetch f
 sudo nala install iptraf-ng ncdu duf -y
 
 #APPS
-sudo nala install gparted synaptic stacer mpv smplayer qbittorrent -y
+sudo nala install gparted synaptic bleachbit mpv smplayer qbittorrent -y
 
 # Install floorp-browser
 nala install apt-transport-https curl -y
