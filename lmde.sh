@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Removing Junk Apps (if install with gui)
-sudo apt purge libreoffice* thunderbird* seahorse* transmission* hypnotix*
+sudo apt purge libreoffice* thunderbird* seahorse* transmission* hypnotix* celluloid*
 
 #Setup Nala
 sudo apt update && sudo apt install nala -y
