@@ -38,6 +38,9 @@ nala install floorp -y
 # Install fonts
 sudo nala install fonts-font-awesome fonts-powerline fonts-ubuntu ttf-mscorefonts-installer fonts-roboto fonts-jetbrains-mono -y
 
+#Banglafonts
+tar -xvf BanglaFonts.tar.gz
+mv BanglaFonts ~/.local/share/fonts
 
 #Clean
 sudo nala autoclean && sudo nala autoremove -y
