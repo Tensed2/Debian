@@ -81,14 +81,6 @@ sudo nala install gstreamer1.0-libav gstreamer1.0-plugins-bad gstreamer1.0-plugi
 # Install fonts
 sudo nala install fonts-font-awesome fonts-powerline fonts-ubuntu ttf-mscorefonts-installer fonts-roboto fonts-jetbrains-mono -y
 
-#Banglafonts
-tar -xvf BanglaFonts.tar.gz
-mv BanglaFonts ~/.local/share/fonts
-
-#Bashrc
-mv ~/.bashrc ~/.bashrc.bak
-cp bashrc ~/.bashrc
-
 #Clean
 sudo nala autoclean && sudo nala autoremove -y
 
