@@ -85,6 +85,10 @@ sudo nala install fonts-font-awesome fonts-powerline fonts-ubuntu ttf-mscorefont
 tar -xvf BanglaFonts.tar.gz
 mv BanglaFonts ~/.local/share/fonts
 
+#Bashrc
+mv ~/.bashrc ~/.bashrc.bak
+mv bashrc ~/.bashrc
+
 #Clean
 sudo nala autoclean && sudo nala autoremove -y
 
