@@ -33,9 +33,9 @@ xdg-user-dirs-update
 sudo nala install -y xfce4 xfce4-goodies xfce4-whiskermenu-plugin
 
 # Sound packages (pipewire)
-sudo nala install -y pipewire wireplumber pavucontrol
+sudo nala install -y pipewire-audio wireplumber
 # Sound packages (pulseaudio)
-#pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
+#pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer pavucontrol
 
 # Enable wireplumber audio service
 #sudo -u $username systemctl --user enable wireplumber.service
